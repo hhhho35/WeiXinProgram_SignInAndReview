@@ -1,0 +1,19 @@
+<view class='tablebody' style="align-items:center;justify-content: center;">
+  <view class="welcome">
+    <text>您好，管理员</text>
+  </view>
+  <view class="flex-wrp top" style="flex-direction:row;height:15%;">
+    <view class="flex-item0" style="width:25%;">用户名</view>
+    <view class="flex-item0" style="width:30%;">登录日期</view>
+    <view class="flex-item0" style="width:20%;">登录时间</view>
+    <view class="flex-item0" style="width:25%;">登录地点</view>
+  </view>
+
+  <view class="flex-wrp" style="flex-direction:row;" wx:for="{{result}}">
+    <view class="flex-item name">{{item.name}}</view>
+    <view class="flex-item date">{{item.year}}-{{item.month+1}}-{{item.day}}</view>
+    <view class="flex-item time">{{item.hour}}:{{item.minute}}:{{item.second}}</view>
+    <view class="flex-item address">{{item.address}}</view>
+  </view>
+</view>
+  <button bindtap='onClick'>查看登录记录</button>

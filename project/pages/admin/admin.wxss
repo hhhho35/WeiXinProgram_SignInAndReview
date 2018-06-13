@@ -1,0 +1,77 @@
+/* pages/admin/admin.wxss */
+@import "../lib/weui.wxss";
+/*所有元素居中*/
+.flex-wrp {
+  display: flex;
+  align-items:stretch;
+  justify-content: center;
+}
+.flex-item {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+/*表头部分*/
+.flex-item0{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: 	#87CEEB;
+  border-style: dashed;
+  border-width: 2rpx;
+  border-left-style: none;
+  border-right-style: none;
+  border-color:black;
+}
+/*页面*/
+page{  
+  height: 100%;  
+  background-color: 	#F0F8FF;
+}  
+
+/*您好部分*/
+.welcome{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-bottom: 5%;
+  background-color: 	#E6E6FA;
+  border-style: dotted;
+  border-color:bisque; 
+}
+
+/*表格部分*/
+.name{
+  background-color: 		#7FFFAA;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color:gray;
+  width: 25%;
+}
+.date{
+  background-color: 	#FAFAD2;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color:gray;
+  width: 30%;
+}
+.time{
+  background-color: 		#48D1CC;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color:gray;
+  width: 20%;
+}
+.address{
+  background-color: 	#FFF5EE;
+  border-bottom-style: solid;
+  width: 25%;
+}
+.tablebody{
+  margin-bottom: 5%;
+}
+/*按钮*/
+button{
+  width:80%;
+  color: 	#778899;
+}
