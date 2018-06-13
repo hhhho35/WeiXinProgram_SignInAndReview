@@ -1,2 +1,6 @@
 # WeiXinProgram_SignInAndReview
 微信小程序开发课程的项目作业
+
+三个java文件中Test是判断登录信息是否正确的后端，LogIn是签到并记录有关信息的后端，Admin是查看历史登录信息的后端
+连接前后端的wx.request在三个js文件中，url按需修改
+java文件的数据库、表名，字段名同理
